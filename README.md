@@ -45,9 +45,7 @@ Users can create, read, rename, update, and delete files and folders by selectin
 File-and-Folder-Handling/
 │
 ├── main.py          # Main Python application
-├── I.txt            # Sample text file
-├── ko.txt           # Sample text file
-└── Random/          # Sample directory
+└── README.md         # Guide
 ```
 
 *Note: The files and folders shown above are included in the current project structure. Additional files and directories may be created while using the application.*
@@ -66,10 +64,9 @@ File-and-Folder-Handling/
 Open your terminal and run:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/kartikN1234
 ```
 
-Replace `<your-repository-url>` with your GitHub repository URL.
 
 ### 2. Navigate to the Project Directory
 
@@ -109,13 +106,16 @@ Press 0 to exit
 
 ### Example Workflow
 
-1. Run the Python program.
-2. Enter `1` to create a folder and provide its name.
-3. Enter `5` to create a file and add content.
-4. Enter `6` to read the file and display its content.
-5. Enter `7` to rename the file, append content, or overwrite its contents.
-6. Enter `2` to list the files and folders.
-7. Enter `0` to exit the application.
+# Run the Python program.
+  1. Create a folder
+  2. Read files and folder
+  3. Update the folder
+  4. Delete the folder
+  5. Create a file
+  6. Read a file
+  7. Update the file
+  8. Delete the file
+  0. Press 0 to exit
 
 ## 📚 Python Concepts Demonstrated
 
@@ -170,9 +170,9 @@ Potential improvements for future versions include:
 
 ## 👨‍💻 Author
 
-**Your Name**
+**Kartik Nalawade**
 
-GitHub: [Your GitHub Profile](https://github.com/your-username)
+GitHub: https://github.com/kartikN1234
 
 ---
 

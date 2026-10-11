@@ -12,13 +12,18 @@ def create_folder():
         print("Sorry an error occured while creating a folder")
         # print(err)
 
+
+
 def read_file_folder():
 
-    p=Path("")
-    items=list(p.rglob('*'))
-    for i,v in enumerate(items):
-        print(f"{i+1} : {v}")
+    p = Path("")
+    items = [
+        item for item in p.rglob('*')
+        if ".git" not in item.parts
+    ]
 
+    for i, v in enumerate(items):
+        print(f"{i+1} : {v}")
 
 def update_folder():
     try:
