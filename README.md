@@ -64,7 +64,7 @@ File-and-Folder-Handling/
 Open your terminal and run:
 
 ```bash
-git clone https://github.com/kartikN1234
+git clone https://github.com/kartikN1234/File-and-Folder-Handling.git
 ```
 
 
